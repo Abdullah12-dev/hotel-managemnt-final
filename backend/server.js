@@ -27,7 +27,8 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+
+app.use(cors({ origin: 'https://hotel-managemnt-final.vercel.app' }));
 app.use(express.json());
 
 // Admin
