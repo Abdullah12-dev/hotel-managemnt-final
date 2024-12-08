@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:7000/' });
+const API = axios.create({ baseURL: 'https://hotel-managment-system-h83z-auuahlpsq.vercel.app' });
 
 // Custom error handler
 const handleApiError = (error) => {

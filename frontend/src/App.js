@@ -23,7 +23,6 @@ import GuestManagement from './receptionistpages/GuestManagment';
 import ReceptionistDashboard from './receptionistpages/ReceptionistDashboard';
 import ReceptionistRootLayout from './receptionistpages/RootLayout';
 import ReceptionistRoomManagement from './receptionistpages/RoomManagement';
-import CheckIn from './receptionistpages/CheckIn';
 import CheckOut from './receptionistpages/CheckOut';
 import BookingManagment from './receptionistpages/BookingManagment';
 import ServiceRequestManagement from './receptionistpages/ServicesRequest';
@@ -164,7 +163,7 @@ const App = () => {
         ),
         children: [
           { index: true, element: <ReceptionistDashboard /> },
-          { path: 'checkIN', element: <CheckIn /> },
+          { path: 'checkIN', element: <CheckOut /> },
           { path: 'checkout', element: <CheckOut /> },
           { path: 'guest-management', element: <GuestManagement /> },
           { path: 'rooms-management', element: <ReceptionistRoomManagement /> },
