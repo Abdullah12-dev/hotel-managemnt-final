@@ -28,7 +28,7 @@ const app = express();
 
 // Middleware
 
-app.use(cors({ origin: 'https://hotel-managemnt-final.vercel.app' }));
+app.use(cors({ origin: 'https://hotel-managemnt-final-git-main-abdullahs-projects-d02196df.vercel.app/' }));
 app.use(express.json());
 
 // Admin
